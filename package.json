@@ -1,0 +1,26 @@
+{
+  "name": "aura",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "lint": "turbo run lint",
+    "start": "pnpm build && turbo run start",
+    "check-types": "turbo run check-types",
+    "format": "prettier \"{apps,packages}/**/*.{ts,tsx,js,json}\" --ignore-path .gitignore",
+    "format:write": "pnpm format --write",
+    "format:check": "pnpm format --check",
+    "validate": "pnpm format:write && pnpm lint && pnpm check-types && pnpm build",
+    "prepare": "husky install"
+  },
+  "dependencies": {
+    "turbo": "^2.1.2"
+  },
+  "devDependencies": {
+    "husky": "^8.0.0",
+    "lint-staged": "^15.2.10",
+    "typescript": "^5"
+  },
+  "packageManager": "pnpm@9.10.0"
+}
