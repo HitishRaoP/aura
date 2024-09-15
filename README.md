@@ -9,32 +9,37 @@ This monorepo contains both the frontend and backend code of our project.
 
 ## Tech Stack
 
-**Client:** Nextjs, Redux, TailwindCSS
+**Frontend:** Nextjs, Redux, TailwindCSS
 
-**Server:** Node, Express, tRPC, Nextauth
+**Backend:** Node, Express, tRPC, Nextauth
+
+**Database:** Postgresql
 
 
 ## Run Locally
 
-Step 1 : Clone the project
+Step 1 : Fork the repo
+
+
+Step 2 : Copy the url of your fork
 
 ```bash
-  https://github.com/HitishRaoP/aura.git
+  git clone [Fork URl]
 ```
 
-Step 2 : Go to the project directory
+Step 3 : Go to the project directory
 
 ```bash
   cd aura
 ```
 
-Step 3 : Install dependencies
+Step 4 : Install dependencies
 
 ```bash
   pnpm install
 ```
 
-Step 4 : Start the Development server
+Step 5 : Start the Development server
 
 ```bash
   pnpm dev
