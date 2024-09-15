@@ -1,4 +1,7 @@
 
+![Logo](https://th.bing.com/th/id/OIG4.zxrIqbMOvoDse2WDqaps?w=450&h=150&c=1&r=10&o=5&dpr=1.4&pid=ImgGn)
+
+
 # Aura Monorepo
 
 This monorepo contains both the frontend and backend code of our project.
@@ -36,6 +39,12 @@ Step 4 : Start the Development server
 ```bash
   pnpm dev
 ```
+
+
+## Contributing
+
+Create a branch with your name before pushing any code to this repo
+
 
 
 ## Appendix
