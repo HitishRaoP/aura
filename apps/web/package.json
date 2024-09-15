@@ -10,6 +10,7 @@
     "check-types": "tsc --pretty --noEmit"
   },
   "dependencies": {
+    "@aura/state": "workspace:^",
     "@aura/ui": "workspace:^",
     "next": "14.2.11",
     "react": "^18",
